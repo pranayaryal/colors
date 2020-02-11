@@ -1,0 +1,96 @@
+.navContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0 1em;
+  background: #002651;
+  /* color: white; */
+  color: #83e85a;
+  width: auto;
+  vertical-align: top;
+}
+
+
+.logo {
+  padding: 1em;
+  font-size: 1em;
+  margin-left: 0;
+}
+
+.searchBox {
+  display: none;
+}
+
+
+.firstNav {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1.5em;
+  list-style: none;
+  font-size: 0.9em;
+  letter-spacing: .02em;
+  padding-bottom: 1.2em;
+  padding-top: 1.2em;
+}
+
+.rightSide {
+  display: none;
+}
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+  .navContainer {
+    padding: 0 20em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    width: auto;
+  }
+
+  .logo {
+    padding: 1.2em;
+    font-size: 1.1em;
+    margin-left: 0;
+  }
+
+  .firstNav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1.5em;
+    list-style: none;
+    font-size: 1.1em;
+    letter-spacing: .02em;
+    padding-bottom: 1.2em;
+    padding-top: 1.2em;
+  }
+
+
+
+  .searchBox {
+    display: inline;
+    padding: 1.1em 1.1em;
+  }
+
+  .searchBox input {
+    height: 2em;
+    background-color: #364f6b;
+    border-radius: 0.2em;
+    border: 1px solid #364f6b;
+
+  }
+
+  .rightSide {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 0.9em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
+  }
+
+  .rightside p {
+    font-size: 0.9em;
+  }
+
+}

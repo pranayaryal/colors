@@ -1,0 +1,91 @@
+.getStartedContainer {
+  background: #282c34;
+  color: white;
+  padding-top: 2.5em;
+  padding-bottom: 1.8em;
+}
+
+.getStartedButton {
+  /* height: 3em;
+  width: 11em; */
+  background: #f469a9;
+  padding: 1em 1em;
+  color: #000000;
+  font-size: 1em;
+  padding-top: 0.9em;
+  padding-bottom: 0.9em;
+  border: 0;
+  width: 80%;
+  margin-left: 1em;
+}
+
+.middleContainer {
+  width: auto;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.middleSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: .2em;
+  /* justify-items: center; */
+}
+
+
+.tutorial {
+  margin-top: 0.6em;
+  font-size: 1em;
+  color: #f469a9;
+  margin-right: 0;
+}
+
+@media screen and (min-device-width: 1200px) {
+  .getStartedContainer {
+    background: #282c34;
+    color: white;
+    padding-top: 2.5em;
+    padding-bottom: 1.8em;
+  }
+
+  .getStartedButton {
+    /* height: 3em;
+  width: 11em; */
+    /* background: #f469a9; */
+    background: #2cb978;
+    padding: 1em 1em;
+    color: #000000;
+    font-size: 1.2em;
+    padding-top: 0.9em;
+    padding-bottom: 0.9em;
+    border: 0;
+    width: 80%;
+  }
+
+  .middleContainer {
+    max-width: 1260px;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .middleSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1em;
+    /* justify-items: center; */
+    margin-left: 25em;
+    margin-right: 25em;
+  }
+
+
+  .tutorial {
+    margin-top: 0.6em;
+    font-size: 1.2em;
+    color: #2cb978;
+  }
+
+}
